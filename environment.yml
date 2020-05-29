@@ -1,0 +1,22 @@
+name: env_os
+
+channels:
+  - conda-forge
+  - defaults
+  - menpo
+dependencies:
+  - python=3.7
+  - numpy
+  - scipy
+  - jupyter
+  - notebook
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - git
+  - pip
+  - tensorflow
+  - opencv
+  - pip:
+      - imutils
+      - pathlib
